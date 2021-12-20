@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Intro */
+
+section.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    height: 500px;
+}
+
+section.intro,
+header {
+  background-color: #29375b;
+}
+
+li,
+a,
+h1 {
+  color: #1ba098;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: lighter;
+  font-family: "Cascadia Code";
+}
+
+/* Nav styles */
+nav {
+    padding-top: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    border: 1px #1ba098 solid;
+    border-radius: 4px;
+    padding: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+nav ul li:hover {
+    border-radius: 8px 0 8px 0;
+    cursor: pointer;
+    background: #1ba098;
+}
+
+nav ul li:hover a {
+    color: #29375b;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+/* Classes */
+.m-0 {
+  margin: 0;
+}
+.p-0 {
+  padding: 0;
+}
+
+.t-a-c {
+    text-align: center;
+}
