@@ -11,6 +11,10 @@ body {
   padding: 0;
 }
 
+body > header {
+  background: #29375b !important;
+}
+
 
 
 /* Intro */
@@ -100,7 +104,7 @@ nav a {
 /* footer */
 footer {
   color: #1ba098;
-  font-size: 14px;
+  font-size: 0.8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
