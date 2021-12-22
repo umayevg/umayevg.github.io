@@ -1,32 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/app.css">
-    <script src="assets/app.js" defer></script>
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/app.css" />
+
+    <!-- <script src="assets/app.js" defer></script> -->
+    <title>Gecho Umayev - Web Developer</title>
+    <meta name="description" content="Développement de sites et applications web sur mesure en Wordpress, PHP, Symfony, JavaScript, HTML, CSS. Nous sommes situés à Liège, Belgique">
+
+    <meta
+      property="og:title"
+      content="Gecho Umayev - Web Developer"
+    />
+    <meta property="og:site_name" content="Gecho Umayev" />
+    <meta property="og:url" content="gecho.be" />
+    <meta
+      property="og:description"
+      content="Développement de sites et applications web sur mesure en Wordpress, PHP, Symfony, JavaScript, HTML, CSS. Nous sommes situés à Liège, Belgique"
+    />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul class="p-0 m-0">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">CV</a></li>
-                <li><a href="#">LinkedIn</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="p-0 m-0">
+          <li><a target="_blank" href="https://github.com/umayevg">Github</a></li>
+          <li><a target="_blank" href="docs/gecho_umayev_cv_eng.pdf">CV</a></li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/gecho-u-82030699/"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section class="intro">
-            
-            <h1 class="p-0 m-0">Gecho Umayev</h1>
-        </section>
+      <section id="intro" class="intro">
+        <div class="intro-image">
+          <img
+            src="https://avatars.githubusercontent.com/u/25713459?v=4"
+            alt="Avatar"
+          />
+        </div>
+        <div class="intro-body">
+          <h1 class="p-0 m-0">Gecho UMAYEV</h1>
+          <span>Web Developer (Liège, Belgium)</span>
+        </div>
+      </section>
     </main>
     <footer>
-
+      <div>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        design and dev by
+        <a target="_blank" class="author" href="https://github.com/umayevg"
+          >umayevg</a
+        >
+      </div>
     </footer>
-</body>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Gecho Umayev",
+        "url": "https://gecho.be/",
+        "jobTitle": "Web Developer",
+        "sameAs": [
+          "https://www.linkedin.com/in/gecho-u-82030699/",
+          "https://github.com/umayevg"
+        ]
+      }
+    </script>
+  </body>
 </html>
