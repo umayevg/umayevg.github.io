@@ -1,2 +1,2 @@
 # umayevg.github.io
-My personal website repo
+My personal website repository
